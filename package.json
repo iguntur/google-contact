@@ -1,0 +1,45 @@
+{
+	"name": "@guntur/google-contact",
+	"version": "0.0.0",
+	"description": "Create and export google contact to CSV or JSON",
+	"repository": "iguntur/google-contact",
+	"license": "MIT",
+	"files": [
+		"lib",
+		"index.js"
+	],
+	"scripts": {
+		"test": "ava"
+	},
+	"author": {
+		"name": "Guntur Poetra",
+		"email": "poetra.guntur@gmail.com",
+		"url": "https://github.com/iguntur"
+	},
+	"keywords": [
+		"contact",
+		"create",
+		"csv",
+		"export",
+		"google",
+		"guntur",
+		"json",
+		"make"
+	],
+	"engines": {
+		"node": ">=6",
+		"npm": ">=6"
+	},
+	"dependencies": {
+		"@guntur/json-fs": "^0.1.1",
+		"json2csv": "^4.4.1",
+		"lodash.startcase": "^4.4.0",
+		"path-ensure": "^2.0.1"
+	},
+	"devDependencies": {
+		"@guntur/eslint-config": "0.0.5",
+		"@guntur/phone-number-generator": "^0.1.1",
+		"ava": "^1.4.1",
+		"faker": "^4.1.0"
+	}
+}
