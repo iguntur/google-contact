@@ -1,6 +1,6 @@
 {
 	"name": "@guntur/google-contact",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Create and export google contact to CSV or JSON",
 	"repository": "iguntur/google-contact",
 	"license": "MIT",
